@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Contacto</title>
+  </head>
+
+  <body>
+    <header class="headerStyle">
+      <nav class="navBar">
+        <a class="navBarBrand" href="../assets/img/LOGO.png">ByB Zapas</a>
+        <ul class="navBarNav">
+          <li class="navBarItem">
+            <a class="navBarLink" href="./../index.html">Inicio</a>
+          </li>
+          <li class="navBarItem">
+            <a class="navBarLink" href="./contacto.html">Contacto</a>
+          </li>
+          <li class="navBarItem">
+            <a class="navBarLink" href="./galería.html">Galería</a>
+          </li>
+          <li class="navBarItem">
+            <a class="navBarLink" href="./productos.html">Productos</a>
+          </li>
+          <li class="navBarItem">
+            <a class="navBarLink" href="./home.html">Home</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Contacto</h1>
+      </section>
+    </main>
+    <div class="formContainer">
+      <form>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" />
+
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" />
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" />
+
+        <label for="pais">País:</label>
+        <select id="pais">
+          <option value="Argentina">Argentina</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Paraguay">Paraguay</option>
+          <option value="Venezuela">Venezuela</option>
+          <option value="Perú">Perú</option>
+          <option value="Uruguay">Uruguay</option>
+          <option value="Chile">Chile</option>
+          <option value="Bolivia">Bolivia</option>
+          <option value="México">México</option>
+        </select>
+
+        <fieldset>
+          <legend>Credenciales de acceso</legend>
+          <div class="credencialesAcceso">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" placeholder="nombre@ejemplo.com" />
+
+            <label for="password1">Contraseña:</label>
+            <input type="password" id="password1" />
+
+            <label for="password2">Repita la contraseña:</label>
+            <input type="password" id="password2" />
+
+            <label for="submit">Inicio sesión:</label>
+            <input type="submit" id="submit" />
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    
+    <footer class="footerStyle">
+      <div class="footerCenter">
+        <a class="footerBrand" href="#"> ByB </a>
+        <ul class="footerNav">
+          <li class="footerItem">
+            <a href="https://www.instagram.com/zapas_byb/" target="_blank">
+              <img src="./../assets/img/instagram.png" alt="instagram" />
+            </a>
+          </li>
+          <li class="footerItem">
+            <a href="https://www.facebook.com/gabriel.marino.12139" target="_blank">
+              <img src="./../assets/img/facebook.png" alt="facebook" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
