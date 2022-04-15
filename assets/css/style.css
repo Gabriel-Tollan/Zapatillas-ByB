@@ -22,7 +22,12 @@
     max-width: 100%;
 }
 
+div {
+    background: linear-gradient(to bottom, rgb(245, 240, 240), rgb(101, 210, 243));
+}
+
 .headerStyle {
+    transform: scale(1,1.5);
     background: cadetblue;
     display: flex;
     justify-content: center;
@@ -63,6 +68,31 @@ header .navBar .navBarNav .navBarItem .navBarLink {
     letter-spacing: 1px;
     font-weight: bold;
 }
+
+@keyframes carga_barra {
+    0%{ width: auto;}
+    25%{ width: 300px; }
+    50%{ width: 200px;
+    background-color: rgb(255, 147, 74); }
+    75%{ width: 300px;}
+    100%{ width: 100px;
+    background-color:rgb(253, 136, 132);}
+}
+
+h1 {
+    display: flex;
+    justify-content:space-around;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(247, 69, 37);
+    animation-name: carga_barra;
+    animation-iteration-count: infinite;
+    animation-timing-function:step-start;
+    animation-duration: 4s;
+    animation-delay: 2s;
+   }
+   
+
 
 main {
     background: cornsilk;
@@ -122,7 +152,7 @@ main {
 .formContainer form {
     width: 80%;
     display: grid;
-    grid-template-areas: "label""input";
+    grid-template-areas: "label" "input";
     padding: 20px;
 }
 
@@ -136,7 +166,7 @@ main {
 
 .credencialesAcceso {
     display: grid;
-    grid-template-areas: "label""input";
+    grid-template-areas: "label" "input";
     padding: 20px;
 }
 
