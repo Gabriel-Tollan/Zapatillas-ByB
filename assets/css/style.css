@@ -26,6 +26,12 @@ div {
     background: linear-gradient(to bottom, rgb(245, 240, 240), rgb(101, 210, 243));
 }
 
+.listGroup {
+    display: grid;
+    justify-content: center;
+
+}
+
 .headerStyle {
     transform: scale(1,1.5);
     background: cadetblue;
@@ -91,8 +97,11 @@ h1 {
     animation-duration: 4s;
     animation-delay: 2s;
    }
-   
 
+.btn-group {
+    display: flex;
+    justify-content:center;
+}
 
 main {
     background: cornsilk;
