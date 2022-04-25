@@ -103,6 +103,10 @@ h1 {
     justify-content:center;
 }
 
+.card-group .card .card-img-top {
+    height: 350px;
+}
+
 main {
     background: cornsilk;
     display: flex;
