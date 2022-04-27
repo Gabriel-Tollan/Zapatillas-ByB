@@ -1,205 +1,168 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 16px;
-}
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 16px; }
 
 .gridContainer {
-    min-height: 100vh;
-    width: 90%;
-    margin: 0 auto;
-    grid-template-columns: 1fr;
-    display: grid;
-    justify-items: space-around;
-    align-items: center;
-}
-
-.gridContainer img {
-    max-width: 100%;
-}
+  min-height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  grid-template-columns: 1fr;
+  display: grid;
+  justify-items: space-around;
+  align-items: center; }
+  .gridContainer img {
+    max-width: 100%; }
 
 div {
-    background: linear-gradient(to bottom, rgb(245, 240, 240), rgb(101, 210, 243));
-}
+  background: linear-gradient(to bottom, #f5f0f0, #65d2f3); }
 
 .listGroup {
-    display: grid;
-    justify-content: center;
-
-}
+  display: grid;
+  justify-content: center; }
 
 .headerStyle {
-    transform: scale(1,1.5);
-    background: cadetblue;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
+  transform: scale(1, 1.5);
+  background: cadetblue;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; }
 
 header .navBar {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-}
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row; }
 
 header .navBar .navBarBrand {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold; }
 
 header .navBar .navBarNav {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-}
+  display: flex;
+  flex-direction: row;
+  margin-left: auto; }
 
 header .navBar .navBarNav .navBarItem {
-    margin: 0 10px;
-    padding: 15px;
-}
+  margin: 0 10px;
+  padding: 15px; }
 
 header .navBar .navBarNav .navBarItem .navBarLink {
-    opacity: 1;
-    color: white;
-    letter-spacing: 1px;
-    font-weight: bold;
-}
+  opacity: 1;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: bold; }
 
 @keyframes carga_barra {
-    0%{ width: auto;}
-    25%{ width: 300px; }
-    50%{ width: 200px;
-    background-color: rgb(255, 147, 74); }
-    75%{ width: 300px;}
-    100%{ width: 100px;
-    background-color:rgb(253, 136, 132);}
-}
+  0% {
+    width: auto; }
+  25% {
+    width: 300px; }
+  50% {
+    width: 200px;
+    background-color: #ff934a; }
+  75% {
+    width: 300px; }
+  100% {
+    width: 100px;
+    background-color: #fd8884; } }
 
 h1 {
-    display: flex;
-    justify-content:space-around;
-    width: 50px;
-    height: 50px;
-    background-color: rgb(247, 69, 37);
-    animation-name: carga_barra;
-    animation-iteration-count: infinite;
-    animation-timing-function:step-start;
-    animation-duration: 4s;
-    animation-delay: 2s;
-   }
+  display: flex;
+  justify-content: space-around;
+  width: 50px;
+  height: 50px;
+  background-color: #ff9558;
+  animation-name: carga_barra;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-start;
+  animation-duration: 4s;
+  animation-delay: 2s; }
 
 .btn-group {
-    display: flex;
-    justify-content:center;
-}
+  display: flex;
+  justify-content: center; }
 
 .card-group .card .card-img-top {
-    height: 350px;
-}
+  height: 350px; }
 
 main {
-    background: cornsilk;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  background: cornsilk;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .footerStyle {
-    background: cadetblue;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 150px;
-}
-
-.footerStyle .footerCenter {
+  background: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 150px; }
+  .footerStyle .footerCenter {
     display: flex;
     flex-direction: row;
     padding: 15px 0;
     justify-content: space-between;
-    width: 80%;
-}
+    width: 80%; }
+    .footerStyle .footerCenter .footerBrand {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold; }
 
-.footerStyle .footerCenter .footerBrand {
+.footerNav {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto; }
+  .footerNav .footerItem {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.footerStyle .footerCenter .footerNav {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-}
-
-.footerNav .footerItem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-}
+    margin-left: 10px; }
 
 .footerNav .footerItem img {
-    max-width: 50px;
-    margin-right: 20px;
-}
+  max-width: 50px;
+  margin-right: 20px; }
 
 .formContainer {
-    display: flex;
-    justify-content: center;
-}
-
-.formContainer form {
+  display: flex;
+  justify-content: center; }
+  .formContainer form {
     width: 80%;
     display: grid;
     grid-template-areas: "label" "input";
-    padding: 20px;
-}
+    padding: 20px; }
 
 .formContainer form fieldset {
-    margin-top: 30px;
-}
+  margin-top: 30px; }
 
 .formContainer form label {
-    padding-top: 20px;
-}
+  padding-top: 20px; }
 
 .credencialesAcceso {
-    display: grid;
-    grid-template-areas: "label" "input";
-    padding: 20px;
-}
-
+  display: grid;
+  grid-template-areas: "label" "input";
+  padding: 20px; }
 
 @media only screen and (max-width: 600px) {
-    .comentarios {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    header .navBar {
-        flex-direction: column;
-    }
-
-    header .navBar .navBarNav {
-        flex-direction: column;
-        align-items: center;
-        margin-left: initial;
-    }
-
-    header .navBar .navBarNav .navBarItem {
-        padding: 5px;
-    }
-}
+  .comentarios {
+    grid-template-columns: repeat(2, 1fr); }
+  header .navBar {
+    flex-direction: column; }
+  header .navBar .navBarNav {
+    flex-direction: column;
+    align-items: center;
+    margin-left: initial; }
+  header .navBar .navBarNav .navBarItem {
+    padding: 5px; } }
