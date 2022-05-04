@@ -1,3 +1,86 @@
+.boton, .botonRojo, .botonVerde {
+  background-color: #e22b59;
+  text-align: center;
+  color: #a0dda8;
+  border-radius: 20px;
+  border: 1px solid black; }
+  .boton:hover, .botonRojo:hover, .botonVerde:hover {
+    filter: opacity(85%); }
+
+.botonRojo {
+  background-color: red;
+  color: yellow; }
+
+.botonVerde {
+  background-color: green;
+  color: yellow; }
+
+.letraChica {
+  font-size: 1rem;
+  font-weight: 100; }
+
+.letraMediana {
+  font-size: 2rem;
+  font-weight: 500; }
+
+.letraGrande {
+  font-size: 3rem;
+  font-weight: 700; }
+
+.botonFacebook {
+  background-color: blue; }
+
+.botonInstagram {
+  background-color: red; }
+
+.col-1 {
+  width: 10%; }
+
+.col-2 {
+  width: 20%; }
+
+.col-3 {
+  width: 30%; }
+
+.col-4 {
+  width: 40%; }
+
+.col-5 {
+  width: 50%; }
+
+.col-6 {
+  width: 60%; }
+
+.col-7 {
+  width: 70%; }
+
+.col-8 {
+  width: 80%; }
+
+.col-9 {
+  width: 90%; }
+
+.col-10 {
+  width: 100%; }
+
+.blue {
+  color: blue; }
+
+.botonFacebook {
+  color: blue; }
+
+.botonInstagram {
+  color: red; }
+
+.red {
+  color: red; }
+
+.botonFacebook {
+  color: blue; }
+
+.botonInstagram {
+  color: red; }
+
 * {
   padding: 0;
   margin: 0;

@@ -1,0 +1,32 @@
+$redes: (
+    "Facebook": blue,
+    "Instagram": red,
+);
+
+.botonFacebook {
+    background-color: map-get($redes, Facebook);
+}
+
+.botonInstagram {
+    background-color: map-get($redes, Instagram);
+}
+
+@for $i from 1 through 10 {
+    .col-#{$i} {
+        width: 10% * $i;
+    }
+}
+
+@each $colorActual in blue, red {
+    .#{$colorActual} {
+        color: #{$colorActual};
+    }
+
+@each $red, $color in $redes {
+    .boton#{$red} {
+        color: $color;
+    }    
+}
+
+
+}
