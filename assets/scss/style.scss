@@ -13,6 +13,35 @@
     font-size: 16px;
 }
 
+.imagenesContainer{
+    margin:auto;
+    max-width: 1200px;
+    .card{
+        margin-bottom: 20px;
+    }
+}
+
+.productosContainer{
+    display: flex;
+    flex-direction: column;
+    .productosMenu{
+        display: flex;
+        flex-direction: row;
+        li {
+            margin: 0 10px;
+        }
+    }
+}
+
+.slideContainer{
+    max-height: 800px;
+    overflow-y: hidden;
+    margin-bottom: 50px;
+    max-width: 80%;
+    margin: auto;
+}
+
+
 .gridContainer {
     min-height: 100vh;
     width: 90%;

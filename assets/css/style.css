@@ -25,7 +25,8 @@
 
 .letraGrande {
   font-size: 3rem;
-  font-weight: 700; }
+  font-weight: 700;
+  margin: auto; }
 
 .botonFacebook {
   background-color: blue; }
@@ -89,6 +90,28 @@
   text-decoration: none;
   font-family: sans-serif;
   font-size: 16px; }
+
+.imagenesContainer {
+  margin: auto;
+  max-width: 1200px; }
+  .imagenesContainer .card {
+    margin-bottom: 20px; }
+
+.productosContainer {
+  display: flex;
+  flex-direction: column; }
+  .productosContainer .productosMenu {
+    display: flex;
+    flex-direction: row; }
+    .productosContainer .productosMenu li {
+      margin: 0 10px; }
+
+.slideContainer {
+  max-height: 800px;
+  overflow-y: hidden;
+  margin-bottom: 50px;
+  max-width: 80%;
+  margin: auto; }
 
 .gridContainer {
   min-height: 100vh;

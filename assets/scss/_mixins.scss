@@ -13,4 +13,5 @@
 
 .letraGrande {
     @include fontSize(3rem, 700);
+    margin: auto;
 }
