@@ -13,27 +13,30 @@
     font-size: 16px;
 }
 
-.imagenesContainer{
-    margin:auto;
+.imagenesContainer {
+    margin: auto;
     max-width: 1200px;
-    .card{
+
+    .card {
         margin-bottom: 20px;
     }
 }
 
-.productosContainer{
+.productosContainer {
     display: flex;
     flex-direction: column;
-    .productosMenu{
+
+    .productosMenu {
         display: flex;
         flex-direction: row;
+
         li {
             margin: 0 10px;
         }
     }
 }
 
-.slideContainer{
+.slideContainer {
     max-height: 800px;
     overflow-y: hidden;
     margin-bottom: 50px;
@@ -213,7 +216,7 @@ main {
     form {
         width: 80%;
         display: grid;
-        grid-template-areas: "label" "input";
+        grid-template-areas: "label""input";
         padding: 20px;
     }
 }
@@ -229,7 +232,7 @@ main {
 
 .credencialesAcceso {
     display: grid;
-    grid-template-areas: "label" "input";
+    grid-template-areas: "label""input";
     padding: 20px;
 }
 

@@ -1,5 +1,4 @@
-$redes: (
-    "Facebook": blue,
+$redes: ("Facebook": blue,
     "Instagram": red,
 );
 
@@ -17,16 +16,18 @@ $redes: (
     }
 }
 
-@each $colorActual in blue, red {
+@each $colorActual in blue,
+red {
     .#{$colorActual} {
         color: #{$colorActual};
     }
 
-@each $red, $color in $redes {
-    .boton#{$red} {
-        color: $color;
-    }    
-}
+    @each $red,
+    $color in $redes {
+        .boton#{$red} {
+            color: $color;
+        }
+    }
 
 
 }
